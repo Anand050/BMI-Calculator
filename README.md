@@ -23,4 +23,5 @@ def BMI(height, weight):
         return 'Obese', bmi
     
 quote, bmi = BMI(height, weight)
+
 put_text('Your BMI is: {} and You are: {}'.format(bmi, quote))
